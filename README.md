@@ -8,7 +8,7 @@ The purpose of this analysis was to create a supervised machine learning model t
 
 ### Over/Under Sampling Models
 
-- Naive Random Oversampling
+#### Naive Random Oversampling
 
 - Balanced Accuracy Score (BAS) 
 ![BAS1](Resources/RandomOver_acc_score.png)
