@@ -17,42 +17,47 @@ The purpose of this analysis was to create a supervised machine learning model t
 - High Risk Recall: 0.63
 - Low Risk Recall: 0.67
 
-- SMOTE Oversampling
-BAS ![BAS2](Resources/)
-High Risk Precision: 0.01
-Low Risk Precision: 1.00
-High Risk Recall: 0.64
-Low Risk Recall: 0.66
+#### SMOTE Oversampling
+- BAS 
+![BAS2](Resources/SMOTE_acc_score.png)
+- High Risk Precision: 0.01
+- Low Risk Precision: 1.00
+- High Risk Recall: 0.64
+- Low Risk Recall: 0.66
 
-- ClusterCentroids Undersampling
-BAS ![BAS3](Resources/)
-High Risk Precision: 0.01
-Low Risk Precision: 1.00
-High Risk Recall: 0.63
-Low Risk Recall: 0.39
+#### ClusterCentroids Undersampling
+- BAS 
+![BAS3](Resources/UnderSample_acc_score.png)
+- High Risk Precision: 0.01
+- Low Risk Precision: 1.00
+- High Risk Recall: 0.63
+- Low Risk Recall: 0.39
 
-- SMOTEENN Combination (Over and Under) Sampling
-BAS ![BAS4](Resources/)
-High Risk Precision: 0.01
-Low Risk Precision: 1.00
-High Risk Recall: 0.69
-Low Risk Recall: 0.55
+#### SMOTEENN Combination (Over and Under) Sampling
+- BAS 
+![BAS4](Resources/SMOTEEN_acc_score.png)
+- High Risk Precision: 0.01
+- Low Risk Precision: 1.00
+- High Risk Recall: 0.69
+- Low Risk Recall: 0.55
 
 ### Ensamble Models
 
-- Balanced Random Forest Classifier
-BAS ![BAS5](Resources/)
-High Risk Percision: 0.04
-Low Risk Percision: 1.00
-High Risk Recall: 0.67
-Low Risk Recall: 0.91
+#### Balanced Random Forest Classifier
+- BAS 
+![BAS5](Resources/RandomForest_acc_score.png)
+- High Risk Percision: 0.04
+- Low Risk Percision: 1.00
+- High Risk Recall: 0.67
+- Low Risk Recall: 0.91
 
-- Easy Ensemble AdaBoost Classifier
-BAS ![BAS6](Resources/)
-High Risk Precision: 0.07
-Low Risk Precision: 1.00
-High Risk Recall: 0.91
-Low Risk Recall: 0.94
+#### Easy Ensemble AdaBoost Classifier
+- BAS 
+![BAS6](Resources/AdaBoost_acc_score.png)
+- High Risk Precision: 0.07
+- Low Risk Precision: 1.00
+- High Risk Recall: 0.91
+- Low Risk Recall: 0.94
 
 ## Summary
 
