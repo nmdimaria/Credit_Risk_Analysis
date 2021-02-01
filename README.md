@@ -10,7 +10,7 @@ The purpose of this analysis was to create a supervised machine learning model t
 
 - Naive Random Oversampling
 
-Balanced Accuracy Score (BAS) ![BAS1](Resources/)
+Balanced Accuracy Score (BAS) ![BAS1](Resources/RandomOver_acc_score.png)
 High Risk Precision: 0.01
 Low Risk Precision: 1.00
 High Risk Recall: 0.63
